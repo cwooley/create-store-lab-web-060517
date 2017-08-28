@@ -16,7 +16,7 @@ describe('store', () => {
   it('updates the state when an action is dispatched', () => {
     store.dispatch({
       type: 'ADD_USER',
-      user: {
+      payload: {
         username: 'bob',
         hometown: 'philly'
       },
